@@ -237,6 +237,10 @@ header .search-bar-container label:hover{
   display: none;
 }
 
+.head-navbar{
+  width: 100vw;
+}
+
 .home{
   min-height: 100vh;
   display: flex;
@@ -269,7 +273,7 @@ header .search-bar-container label:hover{
   top:0; left: 0;
   z-index: -1;
   height: 100%;
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -554,6 +558,8 @@ header .search-bar-container label:hover{
 
 .brand-container{
   text-align: center;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .footer{
@@ -607,6 +613,30 @@ header .search-bar-container label:hover{
 
 .footer .credit span{
   color:var(--red);
+}
+
+
+/* custom scroll bar */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(229, 216, 216);
 }
 
 
@@ -675,7 +705,7 @@ header .search-bar-container label:hover{
 
 }
 
-@media (max-width:450px){
+@media (max-width: 450px){
 
   html{
     font-size: 50%;
