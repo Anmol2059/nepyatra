@@ -1,7 +1,7 @@
 # nepyatra
 
-A Tour and Travels website<br>
-The project can be viewed here: [nepyatra](https://anmol2059.github.io/nepyatra/)
+A Tour and Travels website 🌏✈️<br>
+The project can be viewed here: 👉🏼[nepyatra](https://anmol2059.github.io/nepyatra/)
 
 Contributed By:
 [Bijan Shrestha]
@@ -12,7 +12,7 @@ HTML
 CSS
 JS
 
-# Phase I
+# Phase I 1️⃣
 - > Implemented HTML
 - > Searched for Images
 - > Changed the inline css into external CSS
@@ -21,7 +21,7 @@ JS
 - > Added Media Queries for Responsiveness.
 - > Implemented JS for Swiper, Login form , Search Bar
 
-# Plans for Phase II
+# Plans for Phase II 2️⃣
 - > Change .mp4 to .gif
 - > Make a separate Page for Booking
 - > Implement Recommendation System based on 2/3 Quiz ⭐
